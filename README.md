@@ -25,6 +25,10 @@ The script uses BeautifulSoup4 to parse each response and looks for key words to
 Banhammerer requires a little configuration before you can use it.  There are currently placeholders for your website and your Banhammer key.  There are also several openings for adding your session cookies.  This is critical for the script to work.  You can grab your cookies via a plugin or developer tools to paste them into the script.
 
 ## TODO
-- [ ] Remove input file hardcoding so that user can specify their own file
-- [ ] Add additional optional arguments for specifying site, key, and cookies without editing the script
+- [x] Remove input file hardcoding so that user can specify their own file
+- [x] Allow input with file or individual IP
+- [ ] Add additional optional arguments for specifying site
+- [ ] Add additional optional arguments for specifying key
+- [ ] Add additional optional arguments for specifying cookies
 - [ ] Accept session cookies from file rather then editing script
+- [ ] Consider an application password plugin like [this one](https://wordpress.org/plugins/application-passwords/)
